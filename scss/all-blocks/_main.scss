@@ -1,0 +1,29 @@
+.main{
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 0 30px;
+    .navbar{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        &__logo{
+           img{
+            width: 236px;
+            height: 26px;
+           }
+        }
+        &__child{
+            display:flex;
+            &__item{
+                margin:0 10px;
+                font-family: sans-serif;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color:#83888F;
+                }
+             
+            }
+        }
+    }
+}

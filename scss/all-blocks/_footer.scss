@@ -1,0 +1,29 @@
+.footer{
+    width:1125px;
+    margin:110px auto;
+    background-color: black;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    &__logo{
+        img{
+            width: 210px;
+            height: 24px;
+        }
+    }
+    &__item{
+        display: flex;
+        a{
+            margin: 0 10px;
+            color: #83888F;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+    }
+    &__econka{
+        display:flex;
+        a{
+            margin: 0 20px;
+        }
+    }
+}
